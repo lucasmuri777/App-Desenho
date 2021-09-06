@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+}
+#canvas{
+    border: 2px solid rebeccapurple;
+    background-color: white;
+}
+.toolbox{
+    width: 504px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: rebeccapurple;
+    z-index: 9;
+}
+.toolbox button, #borracha{
+   border: none;
+   cursor: pointer;
+   color: rebeccapurple;
+   font-size: 25px;
+    background-color: white;
+}
+.toolbox p{
+    background-color: white;
+    color: rebeccapurple;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+}
+.toolbox *{
+    width: 50px;
+    margin: 5px;
+    height: 60px;
+}
+#borracha i{
+    line-height: 60px;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+   
+}
+
